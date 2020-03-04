@@ -211,7 +211,7 @@
         
         .column-1-image {
             float: right;
-            width: 50%;
+            width: 30%;
             box-sizing: border-box;
         }
         
@@ -235,7 +235,7 @@
         
         .column-2-image {
             float: right;
-            width: 50%;
+            width: 30%;
             box-sizing: border-box;
         }
         
@@ -243,10 +243,15 @@
             float: right;
             border: 5px solid #ffffff;
         }
+        
+        img {
+            width: 100%;
+        }
         /* footer */
         
         footer {
             text-align: center;
             font-weight: bold;
             padding: 30px;
+            width: 100%;
         }
