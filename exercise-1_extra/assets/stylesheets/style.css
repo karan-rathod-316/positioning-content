@@ -140,7 +140,7 @@ table {
 /* CSS RESET ENDS */
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -158,14 +158,17 @@ a {
 }
 
 .column1 {
-    height: 300px;
-    width: 300px;
+    padding: 50px;
+    padding-bottom: 50px;
+    width: 40%;
     background-color: green;
     float: left;
+    box-sizing: border-box;
 }
 
 .column2 {
     float: right;
+    width: 40%;
 }
 
 .clearfix:before,
@@ -181,33 +184,27 @@ a {
 
 /* Layout 2 */
 
-.container-layout2 {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 h2 {
     display: inline-block;
     text-align: left;
     width: 300px
 }
 
-.nav-layout2 {
-    display: inline-block;
-    text-align: right;
-    width: 880px;
-}
-
 .column1-layout2 {
-    height: 300px;
-    width: 300px;
+    padding: 30px;
+    width: 50%;
     background-color: green;
     display: inline-block;
     vertical-align: top;
+    box-sizing: border-box;
 }
 
 .column2-layout2 {
-    width: calc(1200px - 308px);
+    width: 45%;
     text-align: right;
     display: inline-block;
+}
+
+img {
+    width: 100%;
 }
