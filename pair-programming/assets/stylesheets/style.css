@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* css reset ends */
+
+
+/* global */
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border-radius: 15px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4 {
+    padding-top: 15px;
+}
+
+
+/* header */
+
+h1 {
+    padding: 30px;
+    text-align: left;
+    font-size: 50px;
+}
+
+
+/* column 1 */
+
+.column-1a,
+.column-1b {
+    background-color: #ff7569;
+    display: inline-block;
+    border: 1px solid #f52916;
+    padding: 15px;
+}
+
+.column-1a {
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.column-1b {
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+}
+
+
+/* Column 2 */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.column-2a,
+.column-2b {
+    width: 45%;
+    background-color: #5ef993;
+    border: 1px solid #18793a;
+    padding: 15px;
+    float: left;
+}
+
+.column-2b {
+    width: 45%;
+    float: left;
+    padding: 15px;
+}
+
+
+/* Column 3 */
+
+.column-3a,
+.column-3b {
+    background-color: #ff7569;
+    display: inline-block;
+    border: 1px solid #f52916;
+    padding: 15px;
+}
+
+.column-3a {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+
+.column-3b {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+}
+
+
+/* Column 4 */
+
+.column-4a,
+.column-4b {
+    width: 50%;
+    background-color: #5ef993;
+    border: 1px solid #18793a;
+    padding: 15px;
+    float: left;
+}
