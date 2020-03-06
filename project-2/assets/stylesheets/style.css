@@ -238,23 +238,22 @@
                 }
                 
                 .text-column-one {
-                    width: 25%;
+                    width: 30%;
                     float: left;
-                    margin-left: 60px;
                     padding-bottom: 70px;
                 }
                 
                 .text-column-two {
-                    width: 25%;
+                    width: 30%;
                     float: left;
                     margin-left: 60px;
                     padding-bottom: 70px;
                 }
                 
                 .text-column-three {
-                    width: 25%;
+                    width: 30%;
                     float: left;
-                    margin-left: 70px;
+                    margin-left: 60px;
                     padding-bottom: 70px;
                 }
                 
@@ -309,13 +308,13 @@
                     background-color: #5385c1;
                     border: 1px solid #7ea3d1;
                     text-align: center;
-                    margin: 1.5%;
+                    margin: 1%;
                     padding: 15px 0;
                 }
                 
                 .prof-img {
                     border-radius: 50%;
-                    padding-top: 15px;
+                    max-width: 100%;
                 }
                 /* Section four */
                 
@@ -336,15 +335,19 @@
                 .text-image-column-one {
                     width: 45%;
                     float: left;
-                    margin-left: 60px;
+                    margin-left: 0px;
                     padding-bottom: 70px;
                 }
                 
                 .text-image-column-two {
                     width: 45%;
                     float: left;
-                    margin-left: 60px;
+                    margin-left: 70px;
                     padding-bottom: 70px;
+                }
+                
+                .landscapes {
+                    max-width: 100%;
                 }
                 /* Footer */
                 
